@@ -1,0 +1,87 @@
+body {
+  background-color: #282c34;
+}
+.App {
+  text-align: center;
+}
+.description {
+  width: 60vw;
+  margin-top: 0;
+}
+
+.button-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.button {
+  margin-left: 200;
+  margin-right: 200;
+}
+.outside-logo-text {
+  margin-left: 3rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.app-footer {
+  background-color: #282c34;
+  color: white;
+  padding-bottom: 1.5rem;
+}
+.App-link {
+  color: #61dafb;
+}
+.logo-text {
+  color: green;
+  font-style: italic;
+  font-size: larger;
+  animation-name: underline_animation;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.logo-no-anim {
+  color: green;
+  font-style: italic;
+  font-size: larger;
+  text-decoration: underline;
+}
+.button {
+  background-color: lawngreen;
+}
+@keyframes underline_animation {
+  0% {
+    text-decoration: underline;
+  }
+  50% {
+    text-decoration: none;
+  }
+  100% {
+    text-decoration: underline;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body .outside-logo-text {
+    margin-left: 0;
+    position: relative;
+  }
+  body {
+    height: 100vh;
+  }
+}

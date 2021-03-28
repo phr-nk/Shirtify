@@ -1,0 +1,35 @@
+.shirt {
+  position: relative;
+}
+.shirt_image {
+}
+svg {
+  position: absolute;
+  display: inline-block;
+  top: 18vh;
+
+  max-height: 600px;
+}
+.adjustButton {
+  top: -49vh;
+}
+.verticalAdjust {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 40vh;
+  right: 20vw;
+}
+@media only screen and (max-width: 480px) {
+  body .shirt {
+    transform: scale(0.4) translate(0, -130vh);
+  }
+  body svg {
+    transform: translate(0, 4vh);
+  }
+  body .verticalAdjust {
+    position: relative;
+    transform: rotate(90deg);
+    top: -54vh;
+    right: 60vw;
+  }
+}
