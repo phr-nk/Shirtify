@@ -4,4 +4,4 @@ Link to site: https://shiirtify.web.app/
 
 ![Homepage](https://raw.githubusercontent.com/phr-nk/Storage/master/Shirtify/HOMEPAGE.JPG)
 
-![Shirt](https://raw.githubusercontent.com/phr-nk/Storage/master/Shirtify/shirt.JPG
+![Shirt](https://raw.githubusercontent.com/phr-nk/Storage/master/Shirtify/shirt.JPG)
